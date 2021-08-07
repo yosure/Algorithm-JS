@@ -3,6 +3,7 @@ var lengthOfLongestSubString = function(s){
     let max = 0
     let arry = []
     for(let i=0;i<s.length;i++){
+        console.log(s[i])
         let index = arry.indexOf(s[i])
         if(index !==-1){
            arry.splice(0,index+1)
