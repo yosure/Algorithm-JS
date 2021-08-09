@@ -18,7 +18,6 @@ class ListNode {
             vals.push(head.val);
             head = head.next;
         }
-        console.log(vals)
         for(i=0,j=vals.length-1;i<j;i++,j--){
             if(vals[i] !== vals[j]){
                 return false;
